@@ -14,14 +14,18 @@ public class Summierer {
 	
 	int forSumme(int startWert){
 		int ergebnis = 0; 
-		for (i = 0; i < startWert; i++){
+		for (int i = 0; i <= startWert; i++){
 			ergebnis = ergebnis + i; 
 		}
 		return ergebnis; 
 	}
 	
 	
-	int rekursiveSumme(int startWert) { /* ... */ }
+	int rekursiveSumme(int startWert) {
+		if (startWert <= 0) 
+			return 0; 
+			return rekursiveSumme(startWert - 1) + startWert; 
+	}
 	
 	
 	int kleinerGauss(int startWert) { /* ... */ }
