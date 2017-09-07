@@ -28,5 +28,8 @@ public class Summierer {
 	}
 	
 	
-	int kleinerGauss(int startWert) { /* ... */ }
+	int kleinerGauss(int startWert) { 
+		
+		
+	}
 }
